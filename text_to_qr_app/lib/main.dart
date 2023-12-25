@@ -67,7 +67,7 @@ class _QRContainerState extends State<QRContainer> {
             child: Center(
               child: TextField(
                 controller: _textEditingController,
-                maxLength: 60,
+                maxLength: 160,
                 cursorColor: Colors.grey,
                 decoration: const InputDecoration(
                   focusedBorder: UnderlineInputBorder(
